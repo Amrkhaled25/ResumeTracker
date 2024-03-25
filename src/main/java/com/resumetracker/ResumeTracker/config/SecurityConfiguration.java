@@ -24,7 +24,7 @@ import static org.springframework.security.config.http.SessionCreationPolicy.STA
 @EnableWebSecurity
 public class SecurityConfiguration {
     private static final String[] AUTH_WHITELIST = {
-            "/api/v1/auth/**" ,
+            "/api/v1/**" ,
 
     };
     @Autowired
