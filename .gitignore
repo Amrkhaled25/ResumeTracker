@@ -9,4 +9,5 @@ mvnw.cmd
 ResumeTracker.iml
 
 src/test
-src/main/resources
+src/main/resources/application.yml
+src/main/resources/credentials.json
